@@ -1,18 +1,20 @@
-## Adding new news items
-1. Create a new file in the `_posts` folder with filename `<year>-<month>-<day>-<title>.md`
-2. Start the file with the following template configuration:
-```markdown
----
-layout: news
-title: <-- title-- >
-author: <-- your name -->
-excerpt: <-- one or two line summary -->
----
-```
+# Jekyll Materialize Starter Template v0.1
 
-## Running the site locally
-The site is easiest deployed locally with [Docker](https://docker.com). 
+*A Site Starter Materialize Templates.
 
-1. Install Docker
-2. Clone this repository
-3. Run the `./serve` script
+The theme is a fork of the [minima][1]
+
+![minima theme preview](/screenshot.png)
+
+
+# License
+
+The theme is available as so I use this source [MIT License][2].
+
+[Materialize][3] a  modern responsive front-end framework based on Material Design
+
+Copyright © 2019 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
+
+[1]: https://github.com/jekyll/minima
+[2]: https://opensource.org/licenses/MIT
+[3]: http://materializecss.com/

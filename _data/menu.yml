@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Begrippen
+  link: /begrippen/
+- name: Nieuws
+  link: /nieuws/
+- name: RSS
+  link: /feed.xml
+- name: Contact
+  link: /contact/
