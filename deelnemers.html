@@ -11,10 +11,12 @@ permalink: /deelnemers/
   <div class="col grid-example grid-deelnemer s12 m6 l3 blue lighten-3">
   	<span class="flow-text">
   		<a href="{{ deelnemer.url }}">
-  		{% if deelnemer.logo %}
-  			<img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/{{ deelnemer.logo }}"><br>
+  		{{ deelnemer.naam }}
+      {% if deelnemer.logo %}
+  			<br>
+        <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/{{ deelnemer.logo }}">
   		{% endif %}
-  		{{ deelnemer.naam }}</a>
+  		</a>
   	</span>
   </div>
   {% endfor %}

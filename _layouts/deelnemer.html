@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<h1 class="page-title"><a href="{{ page.homepage }}">{{ page.naam | escape }}</a></h1>
+
+{{ content }}
+
+{% if page.logo %}
+<a href="{{ page.homepage }}"><img width=100% alt="Logo {{page.naam" title="{{ page.naam }}" src="/assets/logos/{{ page.logo }}"></a>
+{% endif %}

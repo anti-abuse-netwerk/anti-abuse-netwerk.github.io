@@ -1,6 +1,6 @@
 ---
 naam: NBIP
 logo: nbip.png
-layout: page
+layout: deelnemer
 ---
 [Stichting NBIP](https://www.nbip.nl)
