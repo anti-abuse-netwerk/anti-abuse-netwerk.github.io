@@ -9,3 +9,7 @@ github_username:  macrod68
 
 sass:
     style: compressed
+
+collections:
+  deelnemers:
+    output: true

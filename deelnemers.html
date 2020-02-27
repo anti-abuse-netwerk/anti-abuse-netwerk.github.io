@@ -1,0 +1,21 @@
+---
+layout: page
+title: Deelnemers
+permalink: /deelnemers/
+---
+
+<h1 class="page-title">{{ page.title | escape }}</h1>
+
+<div class="row">
+  {% for deelnemer in site.deelnemers %}
+  <div class="col grid-example grid-deelnemer s12 m6 l3 blue lighten-3">
+  	<span class="flow-text">
+  		<a href="{{ deelnemer.url }}">
+  		{% if deelnemer.logo %}
+  			<img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/{{ deelnemer.logo }}"><br>
+  		{% endif %}
+  		{{ deelnemer.naam }}</a>
+  	</span>
+  </div>
+  {% endfor %}
+</div>
