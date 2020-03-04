@@ -1,5 +1,5 @@
 ---
-naam: Officier van Justitie Landelijk Parket
+naam: Openbaar Ministerie
 logo: om.svg
 layout: deelnemer
 homepage: https://www.om.nl/onderwerpen/cybercrime
