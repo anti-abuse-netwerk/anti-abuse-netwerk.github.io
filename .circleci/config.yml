@@ -28,7 +28,8 @@ jobs:
           name: Install software
           command: |
             apk update;
-            apk add lftp
+            apk add lftp;
+            echo "ftp:passive-mode true" > ~/.lftprc
       - restore_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
       - run:
@@ -37,7 +38,7 @@ jobs:
             cd /root/project/_site;
             lftp -u www-abuse --env-password upload.bit.nl << EOF
               cd htdocs
-              mirror --continue --reverse --delete --verbose --scan-all-first --exclude=serve
+              mirror --continue --reverse --delete --verbose --exclude=serve
               bye
             EOF            
 
