@@ -5,15 +5,12 @@ jobs:
     docker:
       - image: mrseccubus/github-pages:latest
     steps:
-#      - run: apt-get update && apt-get install -y ssh git
       - run: (cd /root/;rm -rf project;mkdir project)
       - checkout
       - run:
           name: Build site
           command: |
             jekyll build
-      - store_artifacts:
-          path: /root/project/_site/
       - save_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
           paths:
