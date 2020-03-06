@@ -28,19 +28,16 @@ jobs:
           name: Install software
           command: |
             apk update;
-            apk add lftp;
-            echo "ftp:passive-mode true" > ~/.lftprc
+            apk add rsync openssh sshpass;
+            echo "set ftp:passive-mode true" > ~/.lftprc
       - restore_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
       - run:
           name: Upload
           command: |
-            cd /root/project/_site;
-            lftp -u www-abuse --env-password upload.bit.nl << EOF
-              cd htdocs
-              mirror --continue --reverse --delete --verbose --exclude=serve
-              bye
-            EOF            
+            mkdir ~/.ssh;
+            echo  "upload.bit.nl,213.136.12.217 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIVx+0N0LECcGHPywPCk9uz4/l3kNUVNe5QQRleIkMCTarkYauvRrPNPl49x3LIjF6cZsmQZX7jwgsJqEzfcF98=" > ~/.ssh/known_hosts;
+            sshpass -e rsync -av /project/root/_site www-abuse@upload.bit.nl:htdocs;
 
 
 
