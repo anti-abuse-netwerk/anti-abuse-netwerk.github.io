@@ -50,4 +50,4 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - not_even_on_master
