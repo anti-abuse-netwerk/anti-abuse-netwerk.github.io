@@ -3,7 +3,7 @@ jobs:
 
   build:
     docker:
-      - image: MrSeccubus/github-pages:latest
+      - image: mrseccubus/github-pages:latest
     steps:
 #      - run: apt-get update && apt-get install -y ssh git
       - checkout
