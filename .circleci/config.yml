@@ -6,7 +6,7 @@ jobs:
       - image: mrseccubus/github-pages:latest
     steps:
 #      - run: apt-get update && apt-get install -y ssh git
-      - (cd /root/;rm -rf project;mkdir project)
+      - run: (cd /root/;rm -rf project;mkdir project)
       - checkout
       - run:
           name: Build site
