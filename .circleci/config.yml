@@ -37,7 +37,7 @@ jobs:
             cd /root/project/_site;
             lftp -u www-abuse --env-password upload.bit.nl << EOF
               cd htdocs
-              mirror --continue --revese --delete --verbase /root/project/_site .
+              mirror --continue --reverse --delete --verbose --scan-all-first --exclude=serve
               bye
             EOF            
 
