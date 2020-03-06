@@ -25,7 +25,7 @@ jobs:
       - image: alpine/latest
     steps:
       - restore_cache:
-        key: jekykll-{{ .Environment.CIRCLE_SHA1 }}
+          key: jekykll-{{ .Environment.CIRCLE_SHA1 }}
       - run: ls -al /root/project/_site
 
 
