@@ -24,6 +24,11 @@ jobs:
     docker:
       - image: alpine:latest
     steps:
+      - run:
+          name: Install software
+          command: |
+            apk update;
+            apk add lftp
       - restore_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
       - run:
