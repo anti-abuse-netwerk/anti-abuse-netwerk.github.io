@@ -22,7 +22,7 @@ jobs:
 
   upload:
     docker:
-      - image: alpine/latest
+      - image: alpine:latest
     steps:
       - restore_cache:
           key: jekykll-{{ .Environment.CIRCLE_SHA1 }}
