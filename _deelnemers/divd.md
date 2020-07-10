@@ -3,11 +3,7 @@ naam: DIVD
 logo: divd.png
 layout: deelnemer
 homepage: https://www.divd.nl
-advisory: melder
-vulnerability_notification:
-  - melder
-  - verrijker
-  - doordeler
+ondertekend: 2020-07-14 00:00
 ---
 DIVD is het Dutch Institute for Vulnerability Disclose. 
 

@@ -6,6 +6,7 @@ permalink: /begrippen/
 
 <h1 class="page-title">{{ page.title | escape }}</h1>
 
+
 <div class="section">
     <div class="row">
           <div class="col s12">
