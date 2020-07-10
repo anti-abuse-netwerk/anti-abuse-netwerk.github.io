@@ -7,7 +7,7 @@ permalink: /manifest/
 <br><br>
 14-7-2020
 <br><br>
-CONTACTPERSOON: Inge Brian, Deloitte - ibryan@deloitte.nl
+CONTACTPERSOON: Inge Brian, Deloitte - <a href=mailto:ibryan@deloitte.nl>ibryan@deloitte.nl</a>
 <br><br>
 Wij zijn ondernemers, onderzoekers, (non-profit) dienstverleners en overheidsfunctionarissen die actief zijn betrokken bij het digitale fundament van de Nederlandse economie.
 Wij werken aan een veilige en betrouwbare online infrastructuur voor alle Nederlanders en we zijn trots op de Nederlandse netwerken van het internet. Ook in tijden van crisis zoals tijdens de COVID-19-pandemie zien we hoe stabiel onze digitale infrastructuur is. <br><br>
@@ -21,15 +21,16 @@ Onze missie is om blijvend samen te werken om informatie waarmee abuse kan worde
 Intussen gaat ons dagelijks werk door. Wij blijven iedere dag werken aan de veiligheid van de online wereld, voor ons allemaal.
 Ons Netwerk staat open voor alle partijen die voor zichzelf een concrete rol zien en een bijdrage kunnen leveren aan de ambities van ons Anti-Abuse Netwerk.<br>
 <br>
-{% assign sorted = site.deelnemers | sort: 'ondertekend' -%}
+{% assign by_name = site.deelnemers | sort: 'naam' -%}
+{% assign by_date = by_name | sort: 'ondertekend' -%}
 <br>
 Deelnemers:<br>
 <ul class="collection">
-{% for deelnemer in sorted %}
+{% for deelnemer in by_date %}
   {% if deelnemer.ondertekend %}
 <a href="{{deelnemer.url }}" class="collection-item">
       {% if deelnemer.persoon %}
-      	{{deelnemer.persoon }} - 
+      	{{deelnemer.persoon }} <br>
       {% endif %}
       {{ deelnemer.naam }}
 <span class="new badge" data-badge-caption="">{{ deelnemer.ondertekend |date: "%d-%m-%Y" }}</span>

@@ -18,9 +18,22 @@ img.grid-logo {
 	font-size: small;
 }
 
+.grid-deelnemer {
+   border: 0px solid #eee;
+    margin: 7px 0;
+    text-align: center;
+    line-height: 0.5em;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
+}
+
 .deelnemer-naam {
 	font-size: small;
+	line-height: 5px;
 }
+
 
 img.deelnemer-logo {
 	width : 50%;
