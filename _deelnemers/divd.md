@@ -4,7 +4,7 @@ logo: divd.png
 layout: deelnemer
 homepage: https://www.divd.nl
 ondertekend: 2020-07-14 00:00
-persoon: Chris van 't Hof, Astrid Oosenbrug, Frank Breedijk
+persoon: Chris van 't Hof, Astrid Oosenbrug, Matthijs Koot, Frank Breedijk
 ---
 DIVD is het Dutch Institute for Vulnerability Disclose. 
 
