@@ -1,5 +1,5 @@
 ---
-naam: DHPA
+naam: DHPA – Dutch Hosting Provider Association
 logo: dhpa.png
 layout: deelnemer
 homepage: https://www.dhpa.nl/

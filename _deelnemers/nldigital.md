@@ -1,5 +1,5 @@
 ---
-naam: NL Digital
+naam: NLdigital
 logo: nldigital.svg
 layout: deelnemer
 homepage: https://www.nldigital.nl/

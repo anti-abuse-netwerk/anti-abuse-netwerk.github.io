@@ -4,6 +4,8 @@
   link: /manifest/
 - name: Deelnemers
   link: /deelnemers/
+- name: Werkgroepen
+  link: /werkgroepen/
 - name: Nieuws
   link: /nieuws/
 - name: RSS

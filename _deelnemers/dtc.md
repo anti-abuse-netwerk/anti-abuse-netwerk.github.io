@@ -1,5 +1,5 @@
 ---
-naam: Digital Trust Center
+naam: Digital Trust Center (DTC)
 logo: ezk.svg
 layout: deelnemer
 homepage: https://www.digitaltrustcenter.nl/
