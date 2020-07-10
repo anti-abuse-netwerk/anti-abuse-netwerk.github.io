@@ -5,9 +5,9 @@ permalink: /manifest/
 ---
 Het Anti-Abuse Netwerk – Maakt werk van digitale weerbaarheid!
 <br><br>
-DATUM
+14-7-2020
 <br><br>
-CONTACTPERSOON (mail en telefoon)
+CONTACTPERSOON: Inge Brian, Deloitte - ibryan@deloitte.nl
 <br><br>
 Wij zijn ondernemers, onderzoekers, (non-profit) dienstverleners en overheidsfunctionarissen die actief zijn betrokken bij het digitale fundament van de Nederlandse economie.<br>
 Wij werken aan een veilige en betrouwbare online infrastructuur voor alle Nederlanders en we zijn trots op de Nederlandse netwerken van het internet. Ook in tijden van crisis zoals tijdens de COVID-19-pandemie zien we hoe stabiel onze digitale infrastructuur is. <br>
@@ -28,6 +28,9 @@ Ondertekenaars:<br>
 {% for deelnemer in sorted %}
   {% if deelnemer.ondertekend %}
 <a href="{{deelnemer.url }}" class="collection-item">
+      {% if deelnemer.persoon %}
+      	{{deelnemer.persoon }} - 
+      {% endif %}
       {{ deelnemer.naam }}
 <span class="new badge" data-badge-caption="">{{ deelnemer.ondertekend |date: "%d-%m-%Y" }}</span>
 </a>

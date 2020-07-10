@@ -35,8 +35,7 @@ jobs:
             mkdir ~/.ssh;
             echo  "upload.bit.nl,213.136.12.217 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBIVx+0N0LECcGHPywPCk9uz4/l3kNUVNe5QQRleIkMCTarkYauvRrPNPl49x3LIjF6cZsmQZX7jwgsJqEzfcF98=" > ~/.ssh/known_hosts;
             cd /root/project/_site
-            sshpass -e rsync -av favicon.ico www-abuse@upload.bit.nl:htdocs # Just testing
-            #sshpass -e rsync -av . www-abuse@upload.bit.nl:htdocs # Actually releasing
+            #sshpass -e rsync -av . www-abuse@upload.bit.nl:htdocs 
 
 
 

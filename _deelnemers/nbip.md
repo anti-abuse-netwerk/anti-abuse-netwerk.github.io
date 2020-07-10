@@ -1,7 +1,8 @@
 ---
-naam: NBIP
+naam: NBIP (Nationale Beheersorganisatie Internet Providers)
 logo: nbip.png
 layout: deelnemer
 ondertekend: 2020-07-14 00:00
+persoon: Octavia de Weert
 ---
-[Stichting NBIP](https://www.nbip.nl)
+[NBIP (Nationale Beheersorganisatie Internet Providers)](https://www.nbip.nl)
