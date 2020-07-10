@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Begrippen
-  link: /begrippen/
+- name: Manifest
+  link: /manifest/
 - name: Deelnemers
   link: /deelnemers/
 - name: Nieuws
