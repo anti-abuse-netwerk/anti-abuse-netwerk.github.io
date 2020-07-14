@@ -6,4 +6,4 @@ homepage: https://www.atom86.net
 ondertekend: 2020-07-14 00:00
 persoon: Robert Heuvel, Nico Boekee
 ---
-Atom86 levert en bouwt internet infrastructuren daar waar snelle betrouwbaare en hoogwaardige connecitiviteit bedrijfscritisch is.
+Atom86 levert en bouwt internet infrastructuren daar waar snelle betrouwbaare en hoogwaardige connecitiviteit bedrijfskritisch is.
