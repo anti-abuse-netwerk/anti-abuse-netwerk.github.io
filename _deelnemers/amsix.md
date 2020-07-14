@@ -1,5 +1,5 @@
 ---
-naam: AMS-IX
+naam: AMS-IX - Amsterdam Internet Exchange
 logo: amsix.png
 layout: deelnemer
 homepage: https://www.ams-ix.net/ams
