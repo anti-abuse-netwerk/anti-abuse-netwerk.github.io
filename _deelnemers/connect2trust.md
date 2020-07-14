@@ -1,5 +1,5 @@
 ---
-naam: Connect 2 Trust
+naam: Connect2Trust
 logo: connect2trust.png
 layout: deelnemer
 homepage: https://www.connect2trust.nl/
