@@ -6,7 +6,5 @@
   link: /deelnemers/
 - name: Nieuws
   link: /nieuws/
-- name: RSS
-  link: /feed.xml
 - name: Contact
   link: /contact/
