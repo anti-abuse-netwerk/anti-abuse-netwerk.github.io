@@ -1,6 +1,6 @@
 ---
 naam: Deloitte
-logo: deloitte.gif
+logo: deloitte.png
 layout: deelnemer
 homepage: https://www.deloitte.nl
 ondertekend: 2020-07-14 00:00
