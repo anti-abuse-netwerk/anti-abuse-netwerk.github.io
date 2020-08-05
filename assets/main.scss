@@ -6,7 +6,7 @@
 
 img.grid-logo {
 	max-width : 100%;
-	max-height : 6em;
+	max-height : 200px;
 }
 
 .col.grid-deelnemer {
@@ -20,18 +20,17 @@ img.grid-logo {
 
 .grid-deelnemer {
    border: 0px solid #eee;
-    margin: 7px 0;
-    text-align: center;
-    line-height: 0.5em;
-    font-size: 28px;
-    background-color: tomato;
-    color: white;
-    padding: 0;
+   //margin: 7px 0;
+   text-align: center;
+   line-height: 0.5em;
+   font-size: 28px;
+   background-color: tomato;
+   color: white;
+   padding: 0;
 }
 
 .deelnemer-naam {
 	font-size: small;
-	line-height: 5px;
 }
 
 

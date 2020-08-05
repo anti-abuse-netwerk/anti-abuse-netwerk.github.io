@@ -52,7 +52,7 @@ layout: default
         {% for deelnemer in site.deelnemers %}
           {% if deelnemer.logo %}
             <a class="carousel-item" href="{{ deelnemer.url }}">
-              <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/{{ deelnemer.logo }}">
+              <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/thumbs/{{ deelnemer.logo }}">
               <center>{{ deelnemer.naam }}</center>
             </a>
           {% endif %}
