@@ -1,7 +1,7 @@
 ---
 layout: publicatie
 title: "Ongewenste configuraties, kwetsbaarheden en misbruik: een taxonomie voor 'abuse van techniek'"
-date: 2020-09-07
+date: 2020-09-08
 excerpt: Abuse betekent letterlijk vertaald ‘misbruik’, maar wat bedoelen we eigenlijk met de term “abuse” in de context van AAN, het Anti Abuse Netwerk? Welke vormen van abuse zijn er en hoe zorgen we dat we elkaar begrijpen? In dit artikel presenteert AAN een taxonomie voor ‘abuse van techniek’.
 author: Frank Breedijk, werkgroep informatievoorziening
 ---
