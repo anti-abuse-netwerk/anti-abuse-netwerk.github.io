@@ -1,0 +1,35 @@
+---
+layout: page
+title: Publicaties
+---
+
+<div class="section">
+    <div class="row">
+          <div class="col s12">
+            <table class="striped">
+              <thead>
+                <tr>
+                    <th>Datum</th>
+                    <th>Publicatie</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% assign sorted = site.publicaties | sort: 'date' | reverse %}
+                {% for post in sorted %}
+                <tr>
+                  {% assign date_format = site.minimal.date_format | default: "%d-%m-%y" %}
+                  <td>{{ post.date | date: date_format }}</td>
+                  <td>
+                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></span>
+                    <p>
+                       {{ post.excerpt | truncatewords: 40 }}
+                    </p>
+                  </td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+    </div>
+</div>
