@@ -1,13 +1,13 @@
 #!/bin/bash
 
 docker pull mrseccubus/github-pages:latest
-	while [ 1 ] ; do
-		rm -rf _site/*
-		docker run --volume="$PWD:/root/project:delegated" --publish 4000:4000 -ti mrseccubus/github-pages serve --incremental --host=0.0.0.0 --future |egrep -v "rb:\d+: warning:"
-		set -e
-		echo 'Press CTRL+C now to quit'
-		sleep 1
-		set +e
-		echo 'Restarting...'
-	done
+while [ 1 ] ; do
+	rm -rf _site/*
+	docker run --volume="$PWD:/root/project:delegated" --publish 4000:4000 -ti mrseccubus/github-pages serve --incremental --host=0.0.0.0 --future |egrep -v "rb:\d+: warning:"
+	set -e
+	echo 'Press CTRL+C now to quit'
+	sleep 1
+	set +e
+	echo 'Restarting...'
+done
 
