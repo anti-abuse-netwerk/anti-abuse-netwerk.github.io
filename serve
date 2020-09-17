@@ -2,8 +2,14 @@
 
 docker pull mrseccubus/github-pages:latest
 while [ 1 ] ; do
+	if [ -d _site ]; then
+		sudo chown -R `whoami` _site
+	fi
 	rm -rf _site/*
 	docker run --volume="$PWD:/root/project:delegated" --publish 4000:4000 -ti mrseccubus/github-pages serve --incremental --host=0.0.0.0 --future |egrep -v "rb:\d+: warning:"
+	if [ -d _site ]; then
+		sudo chown -R `whoami` _site
+	fi
 	set -e
 	echo 'Press CTRL+C now to quit'
 	sleep 1
