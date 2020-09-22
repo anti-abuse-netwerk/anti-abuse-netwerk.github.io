@@ -49,7 +49,9 @@ layout: default
       <h1 class="center">Deelnemers</h1>
       <a class="center" href="/deelnemers/">Volledige lijst</a>
       <div class="carousel">
-        {% for deelnemer in site.deelnemers %}
+        {% assign n = site.deelnemers | size %}
+        {% assign d = site.deelnemers | sample: n %}
+        {% for deelnemer in d %}
           {% if deelnemer.logo %}
             <a class="carousel-item" href="{{ deelnemer.url }}">
               <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/thumbs/{{ deelnemer.logo }}">

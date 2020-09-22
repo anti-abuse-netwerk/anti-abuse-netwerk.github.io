@@ -1,7 +1,7 @@
 @echo off
-echo
+echo.
 echo Use http://localhost:4000 to access the site
-echo
+echo.
 :loop
 rd /s /q _site
 mkdir _site
