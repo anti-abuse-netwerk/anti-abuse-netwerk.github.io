@@ -17,6 +17,8 @@ title: page.naam
 {% endif %}
 
 <div class="section">
+	Website: <a href='{{ page.homepage }}'>{{ page.homepage }}</a>
+	<p>
 	{% if page.ondertekend %}
 		{{ page.naam | escape }} heeft ons <a href="/manifest/">manifest</a> ondertekend.
 	{% else %}
