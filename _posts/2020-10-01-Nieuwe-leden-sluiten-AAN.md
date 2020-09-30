@@ -9,6 +9,6 @@ De nieuwe deelnemers zijn:
 * [CSIRT-DSP](/deelnemers/csirt-dsp)
 * [NLConnect](/deelnemers/nlconnect)
 * [Privacy Management Partners](/deelnemers/pmp)
-* [Scamadvisor](/deelnemers/scamadviser)
+* [Scamadviser.com](/deelnemers/scamadviser)
 
 Alle vier de deelnemers hebben ons [manifest](/manifest) ondertekent en zich daarmee achter de doelstellingen van het netwerk geschaard. Deze vier partijen verstevigen de basis van AAN, waarbij inmiddels 27 organisaties zijn aangesloten.

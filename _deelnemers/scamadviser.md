@@ -1,5 +1,5 @@
 ---
-naam: Scamadviser
+naam: Scamadviser.com
 logo: scamadviser.png
 layout: deelnemer
 homepage: https://www.scamadviser.com/
