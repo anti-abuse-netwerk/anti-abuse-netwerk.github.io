@@ -35,7 +35,9 @@ img.grid-logo {
 
 
 img.deelnemer-logo {
-	width : 50%;
+    max-height: 300px;
+    min-width: 200px;
+    max-width: 100%;
 }
 
 * {
@@ -43,6 +45,11 @@ img.deelnemer-logo {
 }
 
 div.aan-specific ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+div.post-content li {
     list-style-type: disc;
     list-style-position: inside;
 }

@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4f, 2020-05-01)"
-   height="190"
-   width="190"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   height="200"
+   width="200"
    sodipodi:docname="politie.svg"
    xml:space="preserve"
    enable-background="new 0 0 190 70"
-   viewBox="0 0 190 190"
+   viewBox="0 0 200 200"
    y="0px"
    x="0px"
    id="Laag_1"
@@ -24,15 +24,15 @@
    id="defs2471" /><sodipodi:namedview
    inkscape:current-layer="Laag_1"
    inkscape:window-maximized="0"
-   inkscape:window-y="23"
-   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-x="-7"
    inkscape:cy="35"
-   inkscape:cx="95"
+   inkscape:cx="-46.5"
    inkscape:zoom="1"
    showgrid="false"
    id="namedview2469"
-   inkscape:window-height="810"
-   inkscape:window-width="1440"
+   inkscape:window-height="1368"
+   inkscape:window-width="1278"
    inkscape:pageshadow="2"
    inkscape:pageopacity="0"
    guidetolerance="10"
@@ -40,39 +40,42 @@
    objecttolerance="10"
    borderopacity="1"
    bordercolor="#666666"
-   pagecolor="#ffffff" />
-<polygon
-   transform="translate(1,59)"
-   id="polygon2450"
-   points="188.1,44.4 188.1,39.6 178.9,39.6 178.9,34.4 188.8,34.4 188.8,29.7 172.2,29.7 172.2,54.8 188.9,54.8 188.9,50.1 178.9,50.1 178.9,44.4 "
-   fill="#004682" />
-<rect
-   id="rect2452"
-   height="25.200001"
-   width="6.6999998"
-   fill="#004682"
-   y="88.699997"
-   x="151.10001" />
-<polygon
-   transform="translate(1,59)"
-   id="polygon2454"
-   points="125.1,54.8 131.8,54.8 131.8,34.6 138,34.6 138,29.7 118.9,29.7 118.9,34.6 125.1,34.6 "
-   fill="#004682" />
-<rect
-   id="rect2456"
-   height="25.200001"
-   width="6.6999998"
-   fill="#004682"
-   y="88.699997"
-   x="101.1" />
-<polygon
-   transform="translate(1,59)"
-   id="polygon2458"
-   points="73.1,54.8 89.3,54.8 89.3,49.9 79.8,49.9 79.8,29.7 73.1,29.7 "
-   fill="#004682" />
+   pagecolor="#ffffff"
+   inkscape:document-rotation="0" />
+
+
+
+
+
 <g
-   transform="translate(1,59)"
-   id="g2466">
+   id="g24"
+   transform="matrix(1.0436635,0,0,1.0410246,-0.191696,2.1447499)"><polygon
+     transform="translate(1,59)"
+     id="polygon2450"
+     points="188.9,50.1 178.9,50.1 178.9,44.4 188.1,44.4 188.1,39.6 178.9,39.6 178.9,34.4 188.8,34.4 188.8,29.7 172.2,29.7 172.2,54.8 188.9,54.8 "
+     fill="#004682" /><rect
+     id="rect2452"
+     height="25.200001"
+     width="6.6999998"
+     fill="#004682"
+     y="88.699997"
+     x="151.10001" /><polygon
+     transform="translate(1,59)"
+     id="polygon2454"
+     points="131.8,54.8 131.8,34.6 138,34.6 138,29.7 118.9,29.7 118.9,34.6 125.1,34.6 125.1,54.8 "
+     fill="#004682" /><rect
+     id="rect2456"
+     height="25.200001"
+     width="6.6999998"
+     fill="#004682"
+     y="88.699997"
+     x="101.1" /><polygon
+     transform="translate(1,59)"
+     id="polygon2458"
+     points="79.8,49.9 79.8,29.7 73.1,29.7 73.1,54.8 89.3,54.8 89.3,49.9 "
+     fill="#004682" /><g
+     transform="translate(1,59)"
+     id="g2466">
 	<path
    id="path2460"
    d="M 9.5,44.1 H 7.8 v -9.7 h 1.7 c 2.3,0 4.4,2.2 4.4,4.8 0,2.7 -2,4.9 -4.4,4.9 M 9.1,29.7 h -8 v 25.2 h 6.7 v -5.6 h 2 c 6.7,0.2 10.7,-4.7 10.6,-9.9 -0.1,-5.8 -3.6,-9.7 -11.3,-9.7"
@@ -85,5 +88,5 @@
    id="path2464"
    d="m 44.3,37.6 c -0.4,-1.3 -0.6,-1.8 -0.6,-3.5 0,-3.3 3.5,-6 3.5,-6 2.4,-2.1 4,-4 4.3,-5.9 C 51.8,20.4 51,18 51,18 c 0.9,0.3 1.3,0.6 1.7,1.1 0.4,0.4 0.8,1.1 0.8,1.1 0.5,-1.6 0.4,-2.8 0.1,-3.9 -0.3,-1.2 -0.8,-2.3 -2,-3.4 -1.4,-1.2 -2.5,-1.5 -2.5,-1.5 0.3,0.6 0.5,1.5 0.4,3.3 -0.2,1.8 -0.6,2.9 -1.9,4.5 -1.1,1.6 -3.5,3.4 -4.8,5.3 -1.3,1.7 -1.8,3.3 -1.9,4.7 -0.1,2.1 0.7,4.3 0.7,4.3 -0.8,-0.5 -1.8,-1.3 -2.4,-2.5 -0.7,-1.3 -1,-2.5 -1.1,-4.7 0,-1.9 0.7,-4.7 2.2,-6.6 1.1,-1.3 3.7,-3.9 4.7,-5.9 1,-2 0.8,-3.1 0.8,-3.9 0,-0.8 -0.4,-2 -0.4,-2 0.6,0 1.4,0.5 1.6,0.8 0.4,0.4 0.8,0.7 0.8,0.7 C 47.9,8.8 48,7.7 47.7,6.3 47.3,4.2 46.3,3 44.9,2 43.4,0.8 42.1,0.9 42.1,0.9 c 0.6,0.8 1,1.6 1.2,2.8 0.2,1.2 0.2,2.5 -0.4,4 -0.7,1.7 -2.7,3.2 -4.2,4.7 -1.5,1.5 -2.8,3 -3.8,5.1 -1.2,2.5 -1.3,4.4 -0.9,6.9 0.5,2.9 2.1,4.7 2.1,4.7 -1.2,-0.4 -2.2,-1.2 -2.9,-1.9 -0.7,-0.8 -1.1,-1.6 -1.4,-2.3 L 24,30.2 v 8 L 45,55.9 66.1,38.2 V 35.5 L 45.2,53 V 50.3 L 66.1,32.8 V 30.4 L 54.6,22.8 c 0.2,0.8 0.4,2.7 -0.7,5 -1.4,2.9 -4.8,5.3 -5.9,5.9 -1.3,0.8 -2,1.6 -2.2,2.4 -0.1,0.4 -0.3,1 -0.1,1.7 v 0 c 1.4,0.3 2.5,1.5 2.5,3.1 0,1.8 -1.4,3.2 -3.2,3.2 -1.8,0 -3.2,-1.4 -3.2,-3.2 -0.1,-1.7 1,-3 2.5,-3.3 z"
    fill="#be965a" />
-</g>
+</g></g>
 </svg>
