@@ -7,7 +7,7 @@ Met deze leden uit versterken we onze verbinding met de breedband sector en de o
 
 De nieuwe deelnemers zijn:
 * [CSIRT-DSP](/deelnemers/csirt-dsp)
-* [NLConnect](/deelnemers/nlconnect)
+* [NLconnect](/deelnemers/nlconnect)
 * [Privacy Management Partners](/deelnemers/pmp)
 * [Scamadviser.com](/deelnemers/scamadviser)
 
