@@ -9,6 +9,8 @@ Met deze kaart maakt AAN de informatieuitwisseling over onveilig geconfigureerde
 
 In de [video](https://www.youtube.com/watch?v=1KUevvcedWA&start=6930) hieronder, van aflevering 17 van de talkshow Hack Talk, licht Frank de metrokaart en enkele van de knelpunten toe.
 
-<iframe src="https://www.youtube.com/embed/1KUevvcedWA?start=6930" width="787" height="442"></iframe>
+<div class="video-container" controls>
+	<iframe src="https://www.youtube.com/embed/1KUevvcedWA?start=6930"></iframe>
+</div>
 
 Op 28 oktober zal AAN de volledige Metrokaart en de gevonden knelpunten via deze site publiceren.
