@@ -7,6 +7,8 @@ Op 9 oktober j.l. name Inge Bryan, names het hele Anti Abuse Netwerk, de "Metrok
 
 Met deze kaart maakt AAN de informatieuitwisseling over onveilig geconfigureerde, kwetsbare en gehackte systemen inzichtelijk. Daarnaast heeft AAN de knelpunten in het huidige stelsel geinventariseerd.
 
-In deze [video opname](https://vimeo.com/466635848#t=1h55m30s), van aflevering 17 van de talkshow Hack Talk, licht Frank de metrokaart en enkele van de knelpunten toe.
+In de [video](https://www.youtube.com/watch?v=1KUevvcedWA&start=6930) hieronder, van aflevering 17 van de talkshow Hack Talk, licht Frank de metrokaart en enkele van de knelpunten toe.
+
+<iframe src="https://www.youtube.com/embed/1KUevvcedWA?start=6930" width="787" height="442"></iframe>
 
 Op 28 oktober zal AAN de volledige Metrokaart en de gevonden knelpunten via deze site publiceren.
