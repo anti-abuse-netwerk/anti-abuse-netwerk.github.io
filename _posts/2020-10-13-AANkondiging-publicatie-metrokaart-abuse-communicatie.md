@@ -14,3 +14,4 @@ In de [video](https://www.youtube.com/watch?v=1KUevvcedWA&start=6930) hieronder,
 </div>
 
 Op 28 oktober zal AAN de volledige Metrokaart en de gevonden knelpunten via deze site publiceren.
+
