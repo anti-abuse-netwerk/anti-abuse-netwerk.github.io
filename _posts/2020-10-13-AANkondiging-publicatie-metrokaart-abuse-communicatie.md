@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-Op 9 oktober j.l. name Inge Bryan, names het hele Anti Abuse Netwerk, de "Metrokaart van Abuse Informatie Uitwisseling" aan van Frank Breedijk de voorzitter van de werkgroep "informatie Deling" van AAN.
+Op 9 oktober j.l. nam Inge Bryan, namens het hele Anti-Abuse Netwerk, de "Metrokaart van Abuse Informatie Uitwisseling" aan van Frank Breedijk de voorzitter van de Werkgroep Informatiedeling van AAN.
 
 ![Metrokaart met te lage rsolutie](/assets/img/metro_lowres.jpg)
 
