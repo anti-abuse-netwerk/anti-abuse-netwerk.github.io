@@ -11,6 +11,11 @@ jobs:
           name: Build site
           command: |
             jekyll build 2>&1|grep -v 'warning:' 
+      - run:
+          name: Test HTML
+          command: |
+            gem install html-proofer &&
+            htmlproofer --allow-hash-href ./_site/
       - save_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
           paths:
