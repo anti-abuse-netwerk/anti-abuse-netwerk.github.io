@@ -6,7 +6,7 @@ excerpt: Voor u ligt De Metrokaart van Abuse gerelateerde informatie. Deze kaart
 author: Werkgroep informatievoorziening
 ---
 
-[Download as pdf](/assets/downloads/Metrokaart Abuse gerelateerde Informatie -Oktober 2020.pdf)
+[Download as pdf](/assets/downloads/Metrokaart Abuse gerelateerde Informatie -Oktober 2020.pdf) - Heeft u feedback, mail ons via feedback@abuse.nl.
 
 Voor u ligt De Metrokaart van Abuse gerelateerde informatie. Deze kaart is samengesteld door de leden van het Anti Abuse Netwerk (AAN) dat zich ten doel stelt het Nederlandse internet veiliger te maken door ervoor te zorgen dat informatie over onveilige configuraties, kwetsbaarheden en misbruik terecht komt bij diegenen die daar iets aan kunnen doen.
 

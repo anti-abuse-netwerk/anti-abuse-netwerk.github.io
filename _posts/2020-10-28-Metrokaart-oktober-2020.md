@@ -7,3 +7,5 @@ Hierbij presenteren wij De Metrokaart van Abuse gerelateerde informatie. Deze ka
 [<img class="responsive-img" src="/assets/img/metro_202010.jpg" alt="Metrokaart 10-2020">](/assets/img/metro_202010.jpg)
 
 Het volledige rapport vind u [hier](/publicaties/metrokaart-oktober-2020.html).
+
+Heeft u feedback, mail ons via feedback@abuse.nl.
