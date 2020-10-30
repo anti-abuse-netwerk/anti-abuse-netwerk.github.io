@@ -39,7 +39,7 @@ Taxonomie
 ---------
 De Metrokaart richt zich alleen op technisch misbruik van de internet infrastructuur, onrechtmatige content of datalekken worden niet behandeld.
 
-In deze Metrokaart hebben we advisories buiten beschouwing gelaten. Een advisory is een niet algemene  meldingen van het bestaan van een kwetsbaarheid, ongewenste configuratie en/of een methode van misbruik van systemen, dat geen IP adres, url of andere specifieke duiding van het betreffende systeem bevat.. Het advisory proces wordt door de leden van AAN als relatief soepel ervaren. De metrokaart richt zich op notificaties, mededelingen over het specifiek voorkomen van ongewenste configuraties, kwetsbaarheden en/of daadwerkelijk misbruik.
+In deze Metrokaart hebben we advisories buiten beschouwing gelaten. Een advisory is een niet algemene  meldingen van het bestaan van een kwetsbaarheid, ongewenste configuratie en/of een methode van misbruik van systemen, dat geen IP adres, url of andere specifieke duiding van het betreffende systeem bevat. Het advisory proces wordt door de leden van AAN als relatief soepel ervaren. De metrokaart richt zich op notificaties, mededelingen over het specifiek voorkomen van ongewenste configuraties, kwetsbaarheden en/of daadwerkelijk misbruik.
 
 <img class="responsive-img" src="/assets/img/techniek_taxonomie.png" alt="Schema taxonomie techniek">
  
