@@ -14,8 +14,7 @@ jobs:
       - run:
           name: Test HTML
           command: |
-            gem install html-proofer &&
-            htmlproofer --allow-hash-href ./_site/
+            ./proof_html.sh
       - save_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
           paths:
