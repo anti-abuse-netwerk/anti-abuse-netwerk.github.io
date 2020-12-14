@@ -17,6 +17,9 @@ jobs:
             ./proof_html.sh
       - save_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - "/root/project/_site"
+      - store_artifacts:
           path: "/root/project/_site"
 
 
