@@ -10,3 +10,5 @@
   link: /publicaties/
 - name: Contact
   link: /contact/
+- name: RSS
+  link: /feed.xml
