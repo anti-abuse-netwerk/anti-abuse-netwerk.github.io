@@ -10,9 +10,7 @@ jobs:
       - run:
           name: Build site
           command: |
-            apt-get update && apt-get -y install systemd &&
-            timedatectl set-timezone Europe/Amsterdam &&
-            jekyll build 2>&1|grep -v 'warning:' 
+            jekyll build --future 2>&1|grep -v 'warning:' 
       - run:
           name: Test HTML
           command: |
