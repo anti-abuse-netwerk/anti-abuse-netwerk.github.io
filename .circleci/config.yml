@@ -18,8 +18,7 @@ jobs:
             htmlproofer --allow-hash-href ./_site/
       - save_cache:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
-          paths:
-            - "/root/project/_site"
+          path: "/root/project/_site"
 
 
   upload:
