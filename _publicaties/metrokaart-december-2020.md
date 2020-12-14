@@ -15,20 +15,20 @@ Deze metrokaart laat al een paar knelpunten zien. Zo wordt helder dat een deel v
 
 [<img class="responsive-img" src="/assets/img/metro_202012.jpg" alt="Metrokaart 12-2020">](/assets/img/metro_202012.jpg)
 
-Een interactive versie van de kaart kun u [hierhier bekijken](https://miro.com/app/board/o9J_lbn-wMQ=/)
+Een interactive versie van de kaart kun u [hier bekijken](https://miro.com/app/board/o9J_lbn-wMQ=/)
 
 Voorlopige conclusies
 =====================
 
 De Metrokaart is een document waarin de leden van AAN, gezamenlijk en overzicht hebben gemaakt van de berichtenuitwisseling die gebruikt wordt bij het bestrijden van onveilig geconfigureerde, kwetsbaarbare of gehackte systemen. 
 Op basis van De Metrokaart zelf, het onderliggende onderzoek en gesprekken en de lijst van geïdentificeerde knelpunten komen we tot de volgende voorlopige conclusies:
-| 1. De kaart is ingewikkeld omdat het landschap ingewikkeld is, de digitale weerbaarheid zou gebaat zijn bij een eenvoudiger stelsel.
-| 2. Momenteel is er geen enkele partij die effectief in staat is alle ontvangers te bereiken. Hierdoor missen melders een duidelijk “loket” waar zij informatie die breed verspreid moet worden kwijt kunnen.
-| 3. Het NCSC lijkt de rol van Centraal Station te vervullen aangezien hier veel lijnen samenkomen, zij heeft echter te maken met restricties waardoor zij niet alle ontvangers kan bereiken.
-| 4. Naast het bestaande AS-net wordt er gewerkt aan het LDS-net (het Landelijk Dekkend Stelsel). Dit LDS maakt nauwelijks gebruik van het al bestaande stelsel van CERTs en AS-en (AS-net)
-| 5. Het DTC dat vaak nadrukkelijk naar voren geschoven wordt als “het tussenstation voor de rest”, is nog niet aangesloten op het LDS en is nog niet voldoende ingericht op deze taak.
-| 6. Aan veel van deze genoemde knelpunten ligt de “status” van een IP -adres als persoonsgegeven ten grondslag.
-| 7. Binnen de huidige wettelijke grenzen is het voor overheidspartijen niet mogelijk op korte termijn deze problematiek fundamenteel aan te pakken.
+1. De kaart is ingewikkeld omdat het landschap ingewikkeld is, de digitale weerbaarheid zou gebaat zijn bij een eenvoudiger stelsel.
+2. Momenteel is er geen enkele partij die effectief in staat is alle ontvangers te bereiken. Hierdoor missen melders een duidelijk “loket” waar zij informatie die breed verspreid moet worden kwijt kunnen.
+3. Het NCSC lijkt de rol van Centraal Station te vervullen aangezien hier veel lijnen samenkomen, zij heeft echter te maken met restricties waardoor zij niet alle ontvangers kan bereiken.
+4. Naast het bestaande AS-net wordt er gewerkt aan het LDS-net (het Landelijk Dekkend Stelsel). Dit LDS maakt nauwelijks gebruik van het al bestaande stelsel van CERTs en AS-en (AS-net)
+5. Het DTC dat vaak nadrukkelijk naar voren geschoven wordt als “het tussenstation voor de rest”, is nog niet aangesloten op het LDS en is nog niet voldoende ingericht op deze taak.
+6. Aan veel van deze genoemde knelpunten ligt de “status” van een IP -adres als persoonsgegeven ten grondslag.
+7. Binnen de huidige wettelijke grenzen is het voor overheidspartijen niet mogelijk op korte termijn deze problematiek fundamenteel aan te pakken.
 
 Knelpunten
 ==========
