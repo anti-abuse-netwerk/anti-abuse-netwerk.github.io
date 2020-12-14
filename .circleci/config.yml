@@ -19,6 +19,9 @@ jobs:
           key: jekyll-{{ .Environment.CIRCLE_SHA1 }}
           paths:
             - "/root/project/_site"
+      - store_artifacts:
+          paths:
+            - "/root/project/_site"
 
 
   upload:
