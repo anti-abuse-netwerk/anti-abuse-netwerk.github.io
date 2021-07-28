@@ -8,4 +8,4 @@ htmlproofer \
 echo "*** External link check ***"
 (set +e ; htmlproofer \
 	--allow-hash-href \
-	--url-ignore="/www.linkedin.com/","/twitter.com/","/#menu/" _site || exit 0 )
+	--url-ignore="/www.linkedin.com/","/twitter.com/","/www.scamadviser.com/" _site || exit 0 )
