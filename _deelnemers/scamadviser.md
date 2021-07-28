@@ -2,7 +2,7 @@
 naam: Scamadviser.com
 logo: scamadviser.png
 layout: deelnemer
-homepage:
+homepage: https://www.scamadviser.com
 ondertekend: 2020-10-01 00:00
 persoon: 
 metro_202010: True
