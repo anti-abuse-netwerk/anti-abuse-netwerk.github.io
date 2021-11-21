@@ -1,0 +1,25 @@
+---
+label: deelnemer
+hide_body: false
+fields:
+- type: text
+  name: naam
+  label: naam
+- type: file
+  name: logo
+  label: logo
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: homepage
+  label: homepage
+- type: datetime
+  name: ondertekend
+  label: ondertekend
+- type: text
+  name: persoon
+  label: persoon
+- type: boolean
+  name: metro_202010
+  label: metro_202010
