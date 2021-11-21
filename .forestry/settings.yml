@@ -13,13 +13,13 @@ sections:
 - type: directory
   path: _publicaties
   label: Publicaties
-  create: all
-  match: "**/*"
+  create: documents
+  match: "**/*.md"
 - type: directory
   path: _deelnemers
   label: Deelnemers
   create: all
-  match: "**/*"
+  match: "**/*.md"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
