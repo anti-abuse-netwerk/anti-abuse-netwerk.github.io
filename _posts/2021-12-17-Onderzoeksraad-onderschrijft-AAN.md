@@ -1,7 +1,0 @@
----
-layout: post
-title: Onderzoeksraad voor Veiligheid onderschrijft AANbevelingen
----
-Op 16 december j.l. presenteerde de Onderzoeksraad voor Veiligheid haar rapport "[Kwetsbaar door software](/https://www.onderzoeksraad.nl/nl/page/17171/kwetsbaar-door-software---lessen-naar-aanleiding-van). In december 2019 werden een aantal lekken in de software van Citrix openbaar. Deze lekken haddden een grote impact op de Nederlandse samenleving. Naar aanleiding van de gebrekkige informatiedeling op dat moment, is op 14 februari 2020 het Anti Abuse Netwerk opgericht. De Onderzoeksraad onderzocht welke lessen te trekken zijn uit de wijze waarop betrokken partijen zijn omgegaan met de risico’s van kwetsbaarheden in Citrix-software en andere voorvallen waarbij kwetsbaarheden in software werden misbruikt door aanvallers.
-
-Het rapport onderschrijft veel van de knelpunten met betrekking tot het delen van abuse- en kwetsbaarheidsinformatie die AAN in 2020 in haar rapportage [Metrokaart en knelpunten Technisch Abuse](/publicaties/metrokaart-december-2020.html) presenteerde. De Onderzoeksraad beveelt aan om ervoor te zorgen dat op korte termijn **alle** potentiële slachtoffers van cyberaanvallen snel en doeltreffend, gevraagd en ongevraagd, worden gewaarschuwd. In 2021 hebben AAN en een aantal individuele leden van het netwerk een start gemaakt om gezamenlijk met de publieke sector invulling te geven aan deze aanbeveling. Het Anti Abuse Netwerk ziet ernaar uit om in 2022 samen met het kabinet deze AANbeveling te concretiseren.
