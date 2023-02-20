@@ -24,17 +24,17 @@ Ons Netwerk staat open voor alle partijen die voor zichzelf een concrete rol zie
 {% assign by_date = by_name | sort: 'ondertekend' -%}
 <br>
 Deelnemers:<br>
-<ul class="collection">
+<div class="collection">
 {% for deelnemer in by_date %}
   {% if deelnemer.ondertekend %}
-<a href="{{deelnemer.url }}" class="collection-item">
+    <a href="{{deelnemer.url }}" class="collection-item">
       {% if deelnemer.persoon %}
       	{{deelnemer.persoon }} <br>
       {% endif %}
       {{ deelnemer.naam }}
-<span class="new badge" data-badge-caption="">{{ deelnemer.ondertekend |date: "%d-%m-%Y" }}</span>
-</a>
+      <span class="new badge" data-badge-caption="">{{ deelnemer.ondertekend |date: "%d-%m-%Y" }}</span>
+    </a>
   {% endif %}
 {% endfor %}
-</ul>
+</div>
 </div>

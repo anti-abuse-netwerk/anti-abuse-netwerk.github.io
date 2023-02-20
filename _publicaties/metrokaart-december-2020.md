@@ -6,7 +6,7 @@ excerpt: Voor u ligt De Metrokaart van Abuse gerelateerde informatie. Deze kaart
 author: Werkgroep informatievoorziening
 ---
 
-[Download as pdf](/assets/downloads/Metrokaart en knelpunten Abuse gerelateerde Informatie - December 2020 1.0.pdf) - Heeft u feedback, mail ons via feedback@abuse.nl.
+[Download as pdf](/assets/downloads/Metrokaart%20en%20knelpunten%20Abuse%20gerelateerde%20Informatie%20-%20December%202020%201.0.pdf) - Heeft u feedback, mail ons via feedback@abuse.nl.
 
 Voor u ligt de tweede versie De Metrokaart van Abuse gerelateerde informatie inclusief de lijst van geconstateerde knelpunten. Deze kaart is samengesteld door de leden van het Anti Abuse Netwerk (AAN) dat zich ten doel stelt het Nederlandse internet veiliger te maken door ervoor te zorgen dat informatie over daadwerkelijk onveilige configuraties, kwetsbaarheden en misbruik terecht komt bij diegenen die daar iets aan kunnen doen.
 Deze kaart is tot stand gekomen door zeer systematisch te werk te gaan. Eerst hebben we een overzicht gemaakt van welke soorten informatie relevant zijn. Vervolgens is er een overzicht gemaakt van alle betrokken partijen die wij kennen in deze arena, veelal aangesloten bij ons netwerk. Daartussen hebben wij de informatiestromen in kaart gebracht die ons bekend zijn. Dit document is een momentopname op basis van de parate kennis in ons netwerk. Door de breedte van ons netwerk en de tijd en aandacht die wij hier als collectief aan geschonken hebben, hebben wij vertrouwen in de kwaliteit van het resultaat. 
@@ -269,7 +269,7 @@ De Metrokaart kwam tot stand met medewerking van de volgende partijen.
 	  	<div class="center">
 	  		<a href="{{ deelnemer.url }}">
 	        {% if deelnemer.logo %}
-	          <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/thumbs/{{ deelnemer.logo }}" max-height="100"><br>
+	          <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/thumbs/{{ deelnemer.logo }}"><br>
 	    		{% endif %}
 	        <span class="flow-text deelnemer-naam">{{ deelnemer.naam }}</span>
 	  		</a>

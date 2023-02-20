@@ -58,7 +58,7 @@ layout: default
           {% if deelnemer.logo %}
             <a class="carousel-item" href="{{ deelnemer.url }}">
               <img class="grid-logo" alt="Logo {{ deelnemer.naam }}" title="{{ deelnemer.naam }}" src="/assets/logos/thumbs/{{ deelnemer.logo }}">
-              <center>{{ deelnemer.naam }}</center>
+              <div class="center">{{ deelnemer.naam }}</div>
             </a>
           {% endif %}
         {% endfor %}
