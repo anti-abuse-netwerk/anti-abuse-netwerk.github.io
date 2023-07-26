@@ -33,3 +33,5 @@ exclude:
   - test_it.sh
   - "*.sh"
   - vendor
+  - Gemfile*
+  - *.log
