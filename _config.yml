@@ -32,3 +32,4 @@ exclude:
   - proof_html.sh
   - test_it.sh
   - "*.sh"
+  - vendor
