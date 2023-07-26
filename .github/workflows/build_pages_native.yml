@@ -32,8 +32,8 @@ jobs:
       - name: Build
         run:  bundle exec jekyll build  --future 2>&1 | tee jekyll-build.log
 #        run:  gem install github-pages --no-doc &&  jekyll build  --future 2>&1 | tee jekyll-build.log
-#      - name: "Fix security.txt"
-#        run: mkdir _site/.well-known && (cd _site/.well-known && ln -s ../security.txt) && ls -al _site/.well-known
+      - name: "Fix security.txt"
+        run: mkdir _site/.well-known && (cd _site/.well-known && ln -s ../security.txt) && ls -al _site/.well-known
       - name: Test HTML code
         run:  ./proof_html.sh
       - name: rsync deploy
