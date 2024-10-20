@@ -1,11 +1,12 @@
 RewriteEngine On
-# Redirect to www
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# Upgrade to https first (see NCSC "ICT-beveiligingsrichtlijnen voor webapplicaties" section "U/WA.05")
 RewriteCond %{HTTP:X-HTTPS-SESSION} !^yes$
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+# Redirect to www
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 SetEnvIfNoCase X-HTTPS-Session Yes is_ssl=yes
 SetEnvIfNoCase X-HTTPS-Session Yes is_https=yes
